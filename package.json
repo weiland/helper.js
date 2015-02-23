@@ -1,0 +1,22 @@
+{
+  "name": "helper.js",
+  "version": "1.0.0",
+  "description": "helper.js",
+  "bugs": {
+    "url": "https://github.com/weiland/helper.js/issues"
+  },
+  "main": "helper.js",
+  "devDependencies": {
+    "gulp-jscs": "^1.4.0",
+    "jshint": "^2.6.0",
+    "tape": "^3.5.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "npm run test",
+    "validate": "jshint ."
+  },
+  "author": "Pascal Weiland",
+  "license": "MIT",
+  "testling": {}
+}
