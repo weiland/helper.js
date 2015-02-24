@@ -11,7 +11,7 @@
 make sure to have installed node.js and npm
 
 ## Installation
-```
+```bash
 # install dependencies
 npm install
 ```
@@ -23,14 +23,14 @@ The source is located in `src/`
 
 ### Tests
 Tests are located in `test/`
-```
+```bash
 # run tests: 
 npm test
 ```
 
 ### js code validation
 validating js code via jshint and jscs
-```
+```bash
 npm run validate
 ```
 
