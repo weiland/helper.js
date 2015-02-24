@@ -58,6 +58,7 @@ var james = (function() {
   // publish public API
   return {
     isObject: isObject,
+    isArray: isArray,
     extend: extend
   };
 })();

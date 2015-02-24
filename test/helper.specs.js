@@ -12,9 +12,18 @@ test('isObject', function(t) {
   t.end();
 });
 
-test('isArray', function(t) {
+test('extend', function(t) {
   t.equal(james.extend({}, {a: 'b'}).a, 'b', 'can extend an object with the attributes of another');
   t.equal(james.extend({a: 'c'}, {a: 'b'}).a, 'b', 'properties in source override destination');
   t.equal(james.extend({c: 'd'}, {a: 'b'}).c, 'd', 'properties not in source don\'t get overriden');
+  t.end();
+});
+
+test('isArray', function(t) {
+  var isArray = james.isArray;
+  t.ok(!isArray(undefined), 'undefined is not an array');
+  t.ok(!isArray(arguments), 'arguments object is not an array');
+  t.ok(isArray([1, 2, 3]), 'array is an array');
+  t.ok(isArray([]), 'empty array is still an array');
   t.end();
 });
