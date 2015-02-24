@@ -23,16 +23,15 @@ The source is located in `src/`
 
 ### Tests
 Tests are located in `test/`
-```bash
-# run tests: 
-npm test
-```
+
+    $ npm test
+
 
 ### js code validation
 validating js code via jshint and jscs
-```bash
-npm run validate
-```
+
+    $ npm run validate
+
 
 
 ## Technologies
