@@ -11,3 +11,10 @@ test('isObject', function(t) {
   t.ok(!james.isObject('hello'), 'string is neither an object');
   t.end();
 });
+
+test('isArray', function(t) {
+  t.equal(james.extend({}, {a: 'b'}).a, 'b', 'can extend an object with the attributes of another');
+  t.equal(james.extend({a: 'c'}, {a: 'b'}).a, 'b', 'properties in source override destination');
+  t.equal(james.extend({c: 'd'}, {a: 'b'}).c, 'd', 'properties not in source don\'t get overriden');
+  t.end();
+});
