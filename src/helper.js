@@ -36,8 +36,11 @@ var james = (function() {
   var isArray = Array.isArray;
 
   /**
+   * @name james.extend
+   *
    * @description
-   * extend an existing object
+   * Extends the destination object by copying properties from the src object.
+   *
    * @param obj
    * @returns {*}
    */
