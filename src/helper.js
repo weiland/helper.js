@@ -1,21 +1,39 @@
 /**
- * Helper.js
- * We call our helper James!
- * He will assist you through the bright and dark sides of the internet.
+ * @name james
+ * @module james
+ *
+ * @description
+ * # james - tobit helper library
+ * Helper library supporting the Chayns API
  */
 
 var james = (function() {
 
   /**
+   * @name james.isObject
+   *
    * @description
-   * Checks whether the given parameter is an object
+   * Determine if a reference is an `Object`.
+   * null is not treated as an object.
+   * In JS arrays are objects
+   *
    * @param obj
-   * @returns {boolean}
+   * @returns {boolean} True if `value` is an `Object`.
    */
   function isObject(obj) {
-    var type = typeof obj;
-    return !!obj && (type === 'function' || type === 'object');
+    return value !== null && typeof value === 'object';
   }
+
+  /**
+   * @name james.isArray
+   *
+   * @description
+   * Determines if a reference is an `Array`.
+   *
+   * @param {*} value Reference to check.
+   * @returns {boolean} True if `value` is an `Array`.
+   */
+  var isArray = Array.isArray;
 
   /**
    * @description
