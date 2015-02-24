@@ -23,7 +23,7 @@ test('isArray', function(t) {
   var isArray = james.isArray;
   t.ok(!isArray(undefined), 'undefined is not an array');
   t.ok(!isArray(arguments), 'arguments object is not an array');
-  t.ok(isArray([1, 2, 3]), 'array is an array');
+  t.ok(isArray([0, 1, 2]), 'array is an array');
   t.ok(isArray([]), 'empty array is still an array');
   t.end();
 });
