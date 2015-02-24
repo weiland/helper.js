@@ -13,7 +13,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "tests": "node test/helper.specs.js",
+    "test": "node test/helper.specs.js",
     "validate": "jshint ."
   },
   "author": "Pascal Weiland",
