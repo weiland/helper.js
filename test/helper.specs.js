@@ -1,5 +1,5 @@
 var test = require('tape');
-var james = require('./helper.js');
+var james = require('../src/helper.js');
 
 test('isObject', function(t) {
   t.ok(james.isObject({hello: 'obj'}), 'object is an object');

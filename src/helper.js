@@ -24,7 +24,9 @@ var james = (function() {
    * @returns {*}
    */
   function extend(obj) {
-    if (!isObject(obj)) return obj;
+    if (!isObject(obj)) {
+      return obj;
+    }
     var source, prop;
     for (var i = 1, length = arguments.length; i < length; i++) {
       source = arguments[i];
@@ -33,7 +35,7 @@ var james = (function() {
       }
     }
     return obj;
-  };
+  }
 
   // publish public API
   return {
