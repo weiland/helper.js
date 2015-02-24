@@ -8,13 +8,14 @@
   "main": "helper.js",
   "devDependencies": {
     "gulp-jscs": "^1.4.0",
+    "jscs": "^1.11.3",
     "jshint": "^2.6.0",
     "tape": "^3.5.0"
   },
   "dependencies": {},
   "scripts": {
     "test": "node test/helper.specs.js",
-    "validate": "jshint ."
+    "validate": "jshint src test && jscs src test"
   },
   "author": "Pascal Weiland",
   "license": "MIT",

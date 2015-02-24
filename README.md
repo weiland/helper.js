@@ -37,6 +37,9 @@ npm run validate
 
 ## Technologies
 
+### node & npm package & bower
+This lib is going to be published as an npm and bower package to be easily included into projects
+
 ### tape
 for testing: 
 ```javascript
