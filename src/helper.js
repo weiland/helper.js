@@ -20,7 +20,7 @@ var james = (function() {
    * @param obj
    * @returns {boolean} True if `value` is an `Object`.
    */
-  function isObject(obj) {
+  function isObject(value) {
     return value !== null && typeof value === 'object';
   }
 
