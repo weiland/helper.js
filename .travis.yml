@@ -8,6 +8,6 @@ addons:
     repo_token: 900e8305f61e2985de387d05217b0f5433e81b7b4b0a5c0d1de95797d12a3b4e
 before_install: npm install -g codeclimate-test-reporter
 install: npm install
-script: npm run test
+script: npm run coverage
 after_script:
   - cat ./coverage/lcov.info | codeclimate && rm -rf ./coverage

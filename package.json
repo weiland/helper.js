@@ -18,13 +18,10 @@
   },
   "dependencies": {},
   "scripts": {
-    "test-old": "node test/helper.specs.js",
+    "specs": "node test/helper.specs.js",
     "validate": "jshint src test && jscs src test",
-    "codeclimate": "cat ./coverage/lcov.info | codeclimate",
     "coverage": "istanbul cover test/*.js --report lcovonly",
-    "rm": "rimraf ./coverage",
-    "test": "npm run coverage",
-    "test-report": "npm run coverage && npm run codeclimate && npm run rm"
+    "test": "npm run specs"
   },
   "author": "Pascal Weiland",
   "license": "MIT",
