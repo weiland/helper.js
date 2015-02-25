@@ -23,7 +23,7 @@
     "codeclimate": "cat ./coverage/lcov.info | codeclimate",
     "coverage": "istanbul cover node_modules/argg test/*.js --report lcovonly",
     "rm": "rimraf ./coverage",
-    "test": "npm run coverage", // && npm run rm
+    "test": "npm run coverage",
     "test-report": "npm run coverage && npm run codeclimate && npm run rm"
   },
   "author": "Pascal Weiland",
