@@ -1,5 +1,4 @@
-[![browser support](https://ci.testling.com/weiland/helper.js.png)
-](https://ci.testling.com/$YOUR_USERNAME_HERE/max-by)
+[![devDependency Status](https://david-dm.org/weiland/helper.js/dev-status.svg)](https://david-dm.org/weiland/helper.js#info=devDependencies)
 [![Build Status](https://travis-ci.org/weiland/helper.js.svg?branch=master)](https://travis-ci.org/weiland/helper.js)
 [![Code Climate](https://codeclimate.com/github/weiland/helper.js/badges/gpa.svg)](https://codeclimate.com/github/weiland/helper.js)
 
@@ -79,3 +78,6 @@ code style linter. ensures that the code follows our conventions
 3. Commit all your changes `git commit -am 'add fancy feature'`
 4. Push to the branch `git push origin cool-feature`
 5. Create a new Pull Request on GitHub
+
+[![browser support](https://ci.testling.com/weiland/helper.js.png)](https://ci.testling.com/$YOUR_USERNAME_HERE/max-by)
+

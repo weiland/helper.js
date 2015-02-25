@@ -7,15 +7,24 @@
   },
   "main": "helper.js",
   "devDependencies": {
+    "argg": "0.0.1",
+    "codeclimate-test-reporter": "0.0.4",
     "gulp-jscs": "^1.4.0",
+    "istanbul": "^0.3.6",
     "jscs": "^1.11.3",
     "jshint": "^2.6.0",
+    "rimraf": "^2.2.8",
     "tape": "^3.5.0"
   },
   "dependencies": {},
   "scripts": {
-    "test": "node test/helper.specs.js",
-    "validate": "jshint src test && jscs src test"
+    "test-old": "node test/helper.specs.js",
+    "validate": "jshint src test && jscs src test",
+    "codeclimate": "cat ./coverage/lcov.info | codeclimate",
+    "coverage": "istanbul cover node_modules/argg test/*.js --report lcovonly",
+    "rm": "rimraf ./coverage",
+    "test": "npm run coverage && npm run rm",
+    "test-report": "npm run coverage && npm run codeclimate && npm run rm"
   },
   "author": "Pascal Weiland",
   "license": "MIT",
