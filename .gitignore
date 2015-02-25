@@ -3,6 +3,9 @@ node_modules
 bower_components
 dist
 
+report
+coverage
+
 # IDE
 .idea
 TODO

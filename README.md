@@ -73,6 +73,9 @@ code quality and detects potential errors and problems
 ### jscs
 code style linter. ensures that the code follows our conventions
 
+### plato
+code visualization and static analysis
+
 ## Contributing
 1. Fork the repository [https://github.com/weiland/helper.js/fork](https://github.com/weiland/helper.js/fork)
 2. Create a feature branch `git checkout -b cool-feature`

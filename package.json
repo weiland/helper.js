@@ -19,6 +19,7 @@
   "dependencies": {},
   "scripts": {
     "specs": "node test/helper.specs.js",
+    "plato": "plato -r -d report -l .jshintrc -t 'helper.js' -x .json src/*.js",
     "validate": "jshint src test && jscs src test",
     "coverage": "istanbul cover test/*.js --report lcovonly",
     "test": "npm run specs"
