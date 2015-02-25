@@ -10,4 +10,4 @@ before_install: npm install -g codeclimate-test-reporter
 install: npm install
 script: npm run test
 after_script:
-  - cat lcov.info | codeclimate
+  - cat ./coverage/lcov.info | codeclimate
