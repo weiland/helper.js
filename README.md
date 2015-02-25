@@ -1,6 +1,7 @@
 [![devDependency Status](https://david-dm.org/weiland/helper.js/dev-status.svg)](https://david-dm.org/weiland/helper.js#info=devDependencies)
 [![Build Status](https://travis-ci.org/weiland/helper.js.svg?branch=master)](https://travis-ci.org/weiland/helper.js)
 [![Code Climate](https://codeclimate.com/github/weiland/helper.js/badges/gpa.svg)](https://codeclimate.com/github/weiland/helper.js)
+[![Test Coverage](https://codeclimate.com/github/weiland/helper.js/badges/coverage.svg)](https://codeclimate.com/github/weiland/helper.js)
 
 # helper.js - james
 
